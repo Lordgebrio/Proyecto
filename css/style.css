@@ -93,7 +93,6 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
 .portafolio {
   color: #000;
 }
@@ -102,8 +101,8 @@ body {
   font-size: 45px;
   text-transform: uppercase;
 }
-.portafolio .estrella .linea{
-    background-color: #000;
+.portafolio .estrella .linea {
+  background-color: #000;
 }
 .container-cards {
   width: 90%;
@@ -132,53 +131,116 @@ body {
   background-color: #c2b2b4;
 }
 
-.sobre-mi h2{
-    font-size: 50px;
-    text-transform: uppercase;
-    padding-top: 50px;
+.sobre-mi h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
 }
 
 .sobre-mi .text {
-    width: 80%;
-    margin: 40px auto;
+  width: 80%;
+  margin: 40px auto;
 }
 
-.sobre-mi .text p{
-    display: inline-block;
-    width: 400px;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: left;
+.sobre-mi .text p {
+  display: inline-block;
+  width: 400px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
 }
 
-.sobre-mi button{
-    background-color: #c2b2b4;
-    padding: 20px 30px;
+.sobre-mi button {
+  background-color: #c2b2b4;
+  padding: 20px 30px;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 10px;
+  border-style: none;
+  border: 2px solid #fff;
+}
+
+.sobre-mi button img {
+  width: 20px;
+}
+
+.sobre-mi button:hover {
+  border: 2px solid #000;
+  color: #000;
+  transition: 1s;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1a252f;
+  color: #fff;
+  height: 80px;
+}
+
+footer p {
+  position: relative;
+  top: 35px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0 50px;
+    height: 50px;
+  }
+  .header h1 {
+    font-size: 18px;
+  }
+  .header .nav-bar {
+    display: none;
+  }
+  .encabezado{
+    height: auto;
+  }
+  .encabezado .avatar {
+    width: 150px;
+    margin: 100px auto 40px;
+  }
+  .encabezado h2 {
+    font-size: 30px;
+  }
+
+  .encabezado p {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .container-cards {
+    width: 100%;
+  }
+  
+  .container-cards .card {
+    width: 100%;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card p {
+    margin-top: 0;
     font-size: 25px;
-    color: #fff;
-    border-radius: 10px;
-    border-style: none;
-    border: 2px solid #fff;
-}
+  }
 
-.sobre-mi button img{
-    width: 20px;
-}
-
-.sobre-mi button:hover{
-    border: 2px solid #000;
-    color: #000;
-    transition: 1s;
-    cursor: pointer;
-}
-
-footer{
-    background-color: #1A252F;
-    color: #fff;
-    height: 80px;
-}
-
-footer p{
-    position: relative;
-    top: 35px;
+  .sobre-mi {
+    height: auto;
+  }
+  .sobre-mi .text {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+  .sobre-mi .text p {
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 30px;
+  }
+  
+  .sobre-mi button {
+    margin: 40px 0;
+  }
 }
