@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.header {
+  height: 100px;
+  line-height: 60px;
+  background-color: #6b4e71;
+  padding: 0 100px;
+  overflow: hidden;
+}
+.header h1 {
+  text-transform: uppercase;
+  float: left;
+  font-size: 28px;
+}
+.header .nav-bar {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header .nav-bar li {
+  display: inline;
+  margin-left: 20px;
+}
+.header .nav-bar a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 30px;
+}
+.header .nav-bar a:hover {
+  color: #000;
+  text-decoration: underline;
+  transition: 1s;
+}
+.encabezado {
+  background-color: #c2b2b4;
+  height: 700px;
+}
+
+.encabezado .avatar {
+  width: 300px;
+  margin: 100px auto 40px;
+}
+.encabezado h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.encabezado p {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.estrella {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto 20px;
+}
+
+.estrella .linea {
+  background-color: #fff;
+  height: 2px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-linea {
+  left: 10px;
+}
+
+.right-linea {
+  right: 10px;
+}
+
+.image-estrella {
+  width: 24px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portafolio {
+  color: #000;
+}
+.portafolio h2 {
+  padding-top: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.portafolio .estrella .linea{
+    background-color: #000;
+}
+.container-cards {
+  width: 90%;
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.container-cards .card {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.card img {
+  width: 400px;
+  height: auto;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.sobre-mi {
+  height: 600px;
+  background-color: #c2b2b4;
+}
+
+.sobre-mi h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.sobre-mi .text {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.sobre-mi .text p{
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.sobre-mi button{
+    background-color: #c2b2b4;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid #fff;
+}
+
+.sobre-mi button img{
+    width: 20px;
+}
+
+.sobre-mi button:hover{
+    border: 2px solid #000;
+    color: #000;
+    transition: 1s;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1A252F;
+    color: #fff;
+    height: 80px;
+}
+
+footer p{
+    position: relative;
+    top: 35px;
+}
